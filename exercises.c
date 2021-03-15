@@ -60,18 +60,7 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-  Persona *ppersona = NULL;
-  
-  int i;
-  for(i=0; i<30; i++){
-   ppersona->nombre[i] = nombre[i];
-  }
-  for (i=0; i<11; i++){
-    ppersona->rut[i] = rut[i];
-  }
-  ppersona->edad = edad;
-  
-  return ppersona;
+  return NULL;
 }
 
 /*
