@@ -123,10 +123,10 @@ sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   Vector *vectorFinala =crearVector(2);
   Vector *vectorFinalb =crearVector(2);
-  asignarValor(vectorFinala, 1, a1);
-  asignarValor(vectorFinala, 2, a2);
-  asignarValor(vectorFinalb, 1, b1);
-  asignarValor(vectorFinalb, 2, b2);
+  asignarValor(vectorFinala, 0, a1);
+  asignarValor(vectorFinala, 1, a2);
+  asignarValor(vectorFinalb, 0, b1);
+  asignarValor(vectorFinalb, 1, b2);
   sumaV(vectorFinala,vectorFinalb,c);
 
 }
